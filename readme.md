@@ -89,21 +89,22 @@
 
 ### 单人作业
 
-> 后端应该都会有伙伴
+> 后端应该都会有伙伴, 下面三个必做
 
-+ 切图 [必做] [下载psd](https://hongyan.cqupt.edu.cn/files/mentum.psd)
++ 切图 [下载psd](https://hongyan.cqupt.edu.cn/files/mentum.psd)
     - 页面布局不要崩
     - 把 `Ajax` 封装好供下面用，**考核题第 7 题**
     - 轮播要写出来, 图片用这个地址 `http://123.207.89.151/jrtt/carousel` (到时候图可能有点丑，不要在意)
     - 上面轮播地址是用 `Ajax` 来请求渲染
     - 能用 iconfont 的用 iconfont, 也可以尝试用 CSS  Sprite
 
-+ 用 `canvas` 做一个画板 [二选一, 可全做]
-+ 利用 `localStorage/sessionStorage` 写一个非自慰版的弹幕 [二选一, 可全做]
++ 用 `canvas` 做一个画板
++ 写一个非自慰版的弹幕
     - 用 `CSS3` 做动画
     - 有输入验证，防止 xss
-    - 用 `localStorage/sessionStorage` 存取数据 
     - 可选字体大小、 颜色等
+    - 用 `localStorage/sessionStorage` 存取数据 
+    - [进阶] 自学 [Node.js](https://nodejs.org/en/) , 把上一条改成存数据库
     - [进阶] 封装成一个弹幕类
     - [其他] 靠自己脑洞添加功能，比如: 视频弹幕存入时间等，视频到了某一时间显示相应时间弹幕...
 
